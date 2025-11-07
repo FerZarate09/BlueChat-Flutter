@@ -1,16 +1,27 @@
-# mi_app
+# BlueChat Flutter 💬
 
-A new Flutter project.
+Aplicación desarrollada en **Flutter** que permite chatear entre dos teléfonos Android mediante **Bluetooth**.
 
-## Getting Started
+## 🚀 Descripción
+BlueChat es un proyecto académico que simula una comunicación entre dos dispositivos móviles, donde uno actúa como **servidor** y el otro como **cliente**.  
+Utiliza la librería `flutter_bluetooth_serial` y la app **Serial Bluetooth Terminal (SBT)** para permitir el envío y recepción de mensajes en tiempo real.
 
-This project is a starting point for a Flutter application.
+## 🧩 Cómo ejecutar
+1. Clona este repositorio en tu equipo.
+2. Ejecuta `flutter pub get` para instalar dependencias.
+3. En un teléfono, abre la app SBT como servidor.
+4. En el otro, ejecuta BlueChat como cliente.
+5. Conéctalos vía Bluetooth y prueba el chat.
 
-A few resources to get you started if this is your first Flutter project:
+## 👩‍💻 Autores
+- Adassa Mariany Zarate Reyes  
+- Angel de Jesus Chavarria Olarte 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Tecnologías
+- Flutter
+- Dart
+- Bluetooth Serial Communication
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+Proyecto académico desarrollado para la materia de **Aplica metodologias agiles**.
